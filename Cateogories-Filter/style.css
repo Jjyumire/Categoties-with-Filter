@@ -1,0 +1,22 @@
+.output {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.output > div img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: rgb(255, 153, 0);
+}
